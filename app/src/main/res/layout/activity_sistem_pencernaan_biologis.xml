@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.dhian.pianatomi.SistemPencernaanBiologis">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Secara biologis sistem pencernaan ini dilakukan oleh mikroba sehingga proses pencernaan ini kemudian disebut pencernaan secara mikro-biologis. Proses pencernaan secara mikro-biologis terjadi ketika ingesta tertahan didalam usus besar, seperti sekum dan usus besar. Pada Unggas khususnya ayam, guna meningkatkan efektifitas pencernaan secara biologis ini maka pada saat sekarang dikembangkan berbagai macam produk probiotik maupun prebiotik  (pakan mikroba) yang tujuannya untuk memperbanyak jumlah mikroorganisme yang menguntungkan didalam saluran pencernaan. Mikroba ini sekaligus mendesak keberadaan mikroba patogen yang dapat merugikan derajat kesehatan unggas. Namun tampaknya pada burung hal ini belum terlalu berkembang."
+        />
+</RelativeLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.dhian.pianatomi.Menu1"
+    android:background="#8f0cf4">
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btndefinisi"
+            android:text="Definisi Anatomi"
+            android:layout_above="@+id/btnburung"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Burung"
+            android:id="@+id/btnburung"
+            android:layout_above="@+id/btnikan"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Permainan"
+            android:id="@+id/btnpermainan"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KELUAR"
+            android:id="@+id/btnkeluar"
+            android:layout_below="@+id/btnpermainan"
+            android:layout_alignParentStart="true"
+            android:layout_alignEnd="@+id/btnpermainan" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IKAN"
+            android:id="@+id/btnikan"
+            android:layout_above="@+id/btnpermainan"
+            android:layout_alignParentStart="true"
+            android:layout_alignEnd="@+id/btnburung" />
+
+
+</RelativeLayout>

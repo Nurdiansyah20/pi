@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.dhian.pianatomi.Pernafasan_pada_ikan_paru_paru">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Pernapasan Pada Ikan Paru-Paru (Diponoi)
+Ikan paru-paru mempunyai cara pernapasan yang menyerupai amfibi. Di samping insang, ikan paru-paru mempunyai satu atau sepasang gelembung udara seperti paru-paru. Yang dapat di gunakan untuk membantu pernapasan, disebut pulmosis. Gelembung ini dikelilingi banyak pembuluh darah. Pulmosis di hubungkan dengan kerongkongan oleh duktus pneumatikus, saluran ini merupakan jalan masuk dan keluarnya udara dari mulut ke gelembung dan sebaliknya, sekaligus memungkinkan terjadinya difusi udara ke kapiler darah.
+"
+        />
+
+</RelativeLayout>

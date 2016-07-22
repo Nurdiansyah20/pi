@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.dhian.pianatomi.Pernafasan_saat_terbang">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="b. Pernapasan Saat Terbang
+Pada saat terbang pernapasan burung tidak menggunakan paru-paru, melainkan kantong udara antartulang korakoid, prosesnya sebagai berikut.
+1.	Pada saat burung terbang mengangkat sayapnya, maka mengakibatkan kantong udara antartulang korakoid terjepit tetapi kantong udara yang terletak di bawah ketika mengembang.
+2.	Udara masuk ke kantong udara yang berada di bawah ketiak.
+3.	Terjadi proses masuknya udara (inspirasi) yang ditandai dengan terjadinya difusi O2 dan CO2 dalam paru-paru.
+4.	Pada saat burung menurunkan sayapnya mengakibatkan kantong udara yang berada di bawah ketiak terjepit sehingga menyebabkan kantorng udara antartulang korakoid mengembang.
+5.	Kemudian udara masuk ke dalam kantong udara antartulang korakoid.
+6.	Sehingga terjadilah ekspresi yang juga ditandai terjadinya difusi O2 dan CO2 .
+
+"
+            />
+
+
+
+
+
+    </ScrollView>
+
+</RelativeLayout>

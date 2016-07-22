@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.dhian.pianatomi.Kelenjar_pencernaan_ikan">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Kelenjar Pencernaan Ikan
+
+Kelenjar pencernaan pada ikan berupa hati yang bersatu dengan pankreas yang disebut hepatopankreas dan empedu yang terdiri atas kantong empedu dan saluran empedu yang bermuara pada usus.
+Pada beberapa ikan kelenjar hati dan pankreas ada yang bersatu, atau pankreasnya melewati kelenjar hati tetapi tidak bersatu, dan ada juga kelenjar pankreas yang terpisah kecil-kecil di sepanjang usus ikan
+Umumnya empedu berfungsi untuk memecah lemak yang b.erstruktur kompleks menjadi lemak yang lebih sederhana agar mudah diserap oleh usus.
+"/>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

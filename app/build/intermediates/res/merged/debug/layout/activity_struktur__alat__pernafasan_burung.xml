@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.dhian.pianatomi.Struktur_Alat_Pernafasan_burung">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Alat-alat pernapasan pada burung agak berbeda dengan manusia. Struktur pernapasan pada burung tersebut antara lain seperti berikut. a. Lubang Hidung Luar Lubang hidung luar terdapat pada pangkal paruh sebelah atas dan berjumlah sepasang.  b. Lubang Hidung Dalam Lubang hidung dalam terdapat pada langit-langit rongga mulut.  c. Celah Tekak Celah tekak terdapat pada faring dan menghubungkan trakea.  d. Trakea Trakea tersusun dari tulang-tulang rawan yang berbentuk lingkaran. Trakea ini akan bercabang menjadi bronkus kanan dan kiri. Tempat percabangan ini disebut dengan bifurkasi trakea. Bronkus ini kemudian akan menghubungkan siring dengan paru-paru.  e. Siring Siring merupakan alat suara yang terdapat pada bifurkasi trakea. Siring tersusun dari otot sterno trakealis dan otot siringalis. Otot sterno trakealis berfungsi untuk menghubungkan tulang dada dengan trakea, sedangkan otot siringalis berfungsi untuk menghubungkan siring dengan dinding trakea dalam. Apabila lipatan berupa selaput sebelah dalam rongga siring bergetar, maka akan menghasilkan suara  f. Paru-Paru Paru-paru burung terdapat sepasang dan menempel di dinding dada bagian dalam. Paru-paru ini berukuran relatif kecil dibandingkan ukuran tubuhnya. Paru-paru burung tersusun oleh: 1.	Bronkus primer yang berhubungan dengan mesobronkus. 2.	Mesobronkus adalah bronkiolus yang paling besar. Mesobronkus memiliki cabang yaitu dua set bronkus sekunder anterior (ventrobronkus) dan bronkus sekunder posterior (porsobronkus). Antara bronkus sekunder anterior dan posterior dihubungkan oleh parabronkus. Parabronkus pada burung memiliki ± 1.000 buah dan masing-masing bergaris tengah ± 0,5 mm.  Paru-paru dibungkus oleh selaput pleura dan berhubungan dengan kantong udara pada alat dalam. Kantung udara disebut sakus pneumatikus dan terdapat pada pangkal leher, rongga dada, ketiak, dan antartulang korakoid. Kantong udara berfungsi antara lain: 1.	untuk bernapas pada saat terbang; 2.	membantu memperkeras suara karena dapat memperbesar ruang siring; 3.	mencegah kedinginan dengan menyelubungi alat-alat dalam dengan rongga udara; 4.	mengurangi panas badan agar tidak banyak yang hilang; 5.	pada saat berenang dapat memperbesar dan memperkecil berat jenis tubuhnya.  Kantong udara pada burung berjumlah 9, antara lain: 1.	2 buah kantong udara di leher; 2.	1 buah kantong udara di antara tulang selangka; 3.	2 buah kantong udara di dada depan; 4.	2 buah kantong udara di dada belakang; 5.	2 buah kantong udara di perut. "/>
+
+
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.dhian.pianatomi.Proses_pencernaan_burung">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="a. Rongga mulut
+Di dalam rongga mulut makanan akan bercampur dengan saliva atau ludah. Air ludah pada burung berguna sebagai
+bahan lubrikasi air.
+
+b. Tembolok
+Tembolok merupakan saluran yang menghubungkan lambung dengan rongga mulut. Tembolok terletak pada tenggorokan bagian akhir. Pada tembolok makanan hanya numpang lewat saja dan tidak mengalami proses pencernaan. Tembolok juga menjadi tempat untuk menampung dan menimbun makanan. Di sini makanan akan disimpan untuk sementara waktu dan mengalami proses peredaman olah cairan yang disekresikan oleh dinding tembolok.
+
+c. Lambung
+Di dalam lambung makanan mengalami pencernaan secara enzimatis dengan bantuan getah lambung. Lambung menghasilkan enzim pepsin, renin dan asam klorida (HCL)
+
+d. Ampela (Gizzart)
+Di dalam gizzart terjadi proses pelumatan makanan dengan bantuan grift. Grift membantu pelumatan makanan menjadi partikel yang lebih kecil dengan permukaan yang luas sehingga mudah ubtuk penetrasi enzim.
+
+e. Usus halus
+Usus halus pada burung tersusun atas duodenum, jejunum dan ileum. Di dalam duodenum terjadi proses penyerapan makanan. Pencernaan makanan di dalam usus halus dibantu oleh cairan empedu, enzim pankreas dan enzim usus. Empedu berfungsi untuk mengelmulsikan lemak, mengaktifkan lipase dan menghidrolisis lemak.
+
+f. Usus besar
+Didalam usus masih terjadi proses pencernaan makanan yang belum dicerna oleh usus halus. Di dalam usus besar terjadi pencernaan selulosa dan hemiselulosa yang belum terhidrolisis oleh enzim.
+Di dalam kolon terjadi pencernaan mikrobiologi dengan bantuan bakteri untuk mencerna protein.
+
+g. Kloaka
+Sisa sari-sari makanan yang tidak diserap oleh tubuh di dorong oleh usus besar menuju rektum selanjutnya dikeluarakan melalui kloaka.
+"
+                />
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

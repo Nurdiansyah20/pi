@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.dhian.pianatomi.Pernafasan_pada_ikan_bertulang_sejati">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Untuk memahami pernapasan ikan bertulang sejati, kita ambil contoh ikan emas. Bagian-bagian insang ikan emas. Insang ikan emas terdiri dari atas lengkung ingsang, rigi-rigi dan lembar ingsang. Lengkung insang tersusun atas tulang rawan berwarna putih. Pada lengkung ingsang ini tumbuh pasangan rigi-rigi yang berguna untuk menyaring air pernapasan yang melalui ingsang.
+Lembaran ingsang tersusun atas jaringan lunak, berbentuk sisir, dan berwarna merah, karena mempunyai banyak pembuluh kapiler darah yang merupakan cabang dari arteri insang. Pada lembaran ingsang inilah pertukaran CO2 dan Oksigen berlangsung.
+"
+                />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Umumnya jumlah insang pada tiap-tiap sisi adalah lima sampai tujuh baris. Insang tersebut membentuk baris-baris yang saling berhubungan pada lengkung ingsangnya. Diantara baris insang di pisahkan oleh celah insang.
+Insang-insang ikan emas tersimpan di dalam rongga insang dan terlindung oleh tutup insang. Mekanisme pernapasan ikan bertulang sejati meliputi dua tahap, yakni fase inspirasi dan ekspasi.
+" />
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Fase Inspirasi
+Fase ini adalah pengambilan udara/pemasukan udara dari air ke dalam insang. Mekanisme inspirasi adalah sebagai berikut. Celah mulut tetap tertutup, bila tutup insang bergerak kesamping dan selaput tutup insang tetap menempel pada tubuh maka rongga mulut bertambah besar, tekanan udaranya berkurang, atau menjadi lebih kecil dari tekanan udara luar. Bila celah mulut membuka maka air/udara akan masuk ke rongga mulut.
+"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Fase Ekspirasi
+Fase Ekspirasi merupakan pengeluaran CO2 dan gas-gas lain dari ingsang ke air. Setelah air masuk ke dalam rongga mulut, celah mulut menutup, tutup insang bergerak mendekati sumbu tubuh/kembali ke posisi semula, seperti selaput insang membuka sehingga air keluar melewati celah tersebut. Pada saat air keluar bersentuhan dengan lembaran insang. Saat itulah oksigen berdifusi ke dalam kapiler darah. Sedangkan CO2 berdifusi dari darah ke dalam air. Jadi, pertukaran O2 dan CO2 terjadi fase ekspirasi.
+"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

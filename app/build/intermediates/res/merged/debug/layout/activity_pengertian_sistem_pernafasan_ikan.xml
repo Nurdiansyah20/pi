@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.dhian.pianatomi.Pengertian_sistem_pernafasan_ikan">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Ikan memiliki sistem pernapasan yang unik karena lingkungannya yang berbeda dengan hewan lain. Untuk lebih jelasnya silakan simak uraian berikut.
+
+Alat pernapasan yang dimiliki ikan adalah insang. Salah satu sumber menyebutkan bahwa terdapat pembagian untuk insang tersendiri,
+(1) ikan yang memiliki tutup insang atau disebut operkulum, fungsinya yaitu untuk melindungi insang. Biasanya operkulum ini terdapat pada ikan yang memiliki tulang sejati, contohnya ikan gurame.
+(2) ikan yang tidak memiliki tutup insang. Pada sumber tidak disebutkan contohnya, tapi kemungkinan adalah ikan yang tidak memiliki tulang sejati.
+"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Insang pada ikan tersusun dari beberapa bagian,
+•	Lengkung insang berupa tulang rawan
+•	Rigi-rigi insang berada di depan lengkung insang, tersusun oleh tulang dan berfungsi untuk menyaring air
+•	Lembaran insang yang terletak di belakang lengkung insang, berwarna merah, berbentuk seperti sisir, dan di dalamnya banyak mengandung arteri insang.
+"/>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

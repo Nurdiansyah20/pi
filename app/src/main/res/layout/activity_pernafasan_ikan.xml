@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.dhian.pianatomi.Pernafasan_ikan"
+    android:background="#022a53">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pengertian Sistem Pernafasan Ikan "
+        android:id="@+id/btnpengertiansistempernafasanikan"
+        android:layout_marginTop="85dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mekanisme Pernafasan Ikan"
+        android:id="@+id/btnmekanismepernafasanikan"
+        android:layout_below="@+id/btnpengertiansistempernafasanikan"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/btnpengertiansistempernafasanikan" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pernafasan Ikan Bertulang Sejati"
+        android:id="@+id/btnikansejati"
+        android:layout_below="@+id/btnmekanismepernafasanikan"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/btnmekanismepernafasanikan" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pernafasan Ikan Bertulang Rawan"
+        android:id="@+id/btnikanrawan"
+        android:layout_below="@+id/btnikansejati"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/btnikansejati" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="pernafasan ikan paru-paru"
+        android:id="@+id/btnikanparuparu"
+        android:layout_below="@+id/btnikanrawan"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/btnikanrawan" />
+
+</RelativeLayout>

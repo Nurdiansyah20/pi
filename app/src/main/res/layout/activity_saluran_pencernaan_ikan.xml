@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.dhian.pianatomi.Saluran_pencernaan_ikan">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Saluran pencernaan ikan terdiri dari mulut, kerongkongan, lambung, usus, dan anus."
+                />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Pada rongga mulut terdapat lidah dan gigi. Lidah pada ikan kurang berguna untuk pencernaan, tetapi hanya untuk membantu ikan untuk bernapas. Gigi runcing berbentuk kerucut dapat tumbuh pada rahang atas, bawah maupun langit-langit. Rahang berfungsi untuk mengunyah makanan. Rongga mulut ikan bervariasi pada berbagai jenis ikan, bergantung pada jenis makanan yang menjadi santapannya. Pada rongga mulut banyak terdapat kelenjar lendir, tetapi tidak mengandung kelenjar ludah. Setelah makanan dikunyah dan dilumasi lendir di dalam rongga mulut, kemudian makanan akan masuk ke faring ikan yang dilengkapi dengan insang pada sisi kanan dan kirinya. Setelah melewati faring, makanan akan diteruskan ke esofagus (kerongkongan) ikan hingga mencapai lambung."
+                />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Pada pangkal lambung yang berbatasan dengan usus terdapat katup yang memisahkannya dengan usus. Uniknya pada ikan memiliki tidak sekum pilori (usus buntu) yang melekat pada usus dan berfungsi untuk menghasilkan sekret dan absorpsi. Makanan setelah dari lambung akan masuk ke dalam usus dan terjadi penyerapan sari-sari makanan. Setelah semua sari makanan telah diserap, sisa makanan kemudian akan dibuang melalui anus.
+Beberapa jenis ikan mempunyai panjang usus yang berbeda-beda dan melekuk-lekuk untuk memperbesar luas permukaan agar penyerapan sari makanan lebih efisien dan tidak banyak terbuang.
+"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

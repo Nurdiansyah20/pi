@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dhian.pianatomi">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <!-- <uses-permission android:name="android.permission.GET_ACCOUNTS" /> -->
+    <!-- <uses-permission android:name="android.permission.READ_PROFILE" /> -->
+    <!-- <uses-permission android:name="android.permission.READ_CONTACTS" /> -->
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Menu1" />
+        <activity android:name=".Splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Burung" />
+        <activity android:name=".Game" />
+        <activity android:name=".DefinisiAnatomi" />
+        <activity android:name=".Pernafasan_Burung" />
+        <activity android:name=".Pencernaan_Burung" />
+        <activity android:name=".Ikan" />
+        <activity android:name=".Pernafasan_ikan" />
+        <activity android:name=".Pencernaan_ikan" />
+        <activity android:name=".Struktur_Alat_Pernafasan_burung" />
+        <activity android:name=".Proses_pernafasan_burung" />
+        <activity android:name=".Pencernaan_burung" />
+        <activity android:name=".SistemPencernaanEnzim" />
+        <activity android:name=".SistemPencernaanBiologis" />
+        <activity android:name=".ProsesPencernaanBurung" />
+        <activity android:name=".SistemPencernaanMekanik" />
+        <activity android:name=".PernafasanSaatIstirahat" />
+        <activity android:name=".PernafasanSaatTerbang" />
+        <activity android:name=".Pengertian_sistem_pernafasan_ikan" />
+        <activity android:name=".Mekanisme_pernafasan_ikan" />
+        <activity android:name=".Pernafasan_pada_ikan_bertulang_sejati" />
+        <activity android:name=".Pernafasan_pada_ikan_bertulang_rawan" />
+        <activity android:name=".Pernafasan_pada_ikan_paru_paru" />
+        <activity android:name=".Saluran_pencernaan_ikan" />
+        <activity android:name=".Kelenjar_pencernaan_ikan" />
+        <activity android:name=".Mekanisme_pencernaan_ikan"></activity>
+    </application>
+
+</manifest>
